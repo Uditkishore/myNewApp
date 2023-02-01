@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myNewApp';
+  constructor(){
+    setTimeout(()=>{
+      this.title = "I am Udit kishor"
+    },2000)
+  }
 }
